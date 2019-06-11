@@ -2,3 +2,9 @@ body
 {
   background-color: #dedede;
 }
+hr
+{
+  background-color: white;
+  border-style: none;
+  height: 2px;
+}
