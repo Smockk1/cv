@@ -21,11 +21,11 @@ h2, h3
 {
   text-align: center;
 }
-h1.title
+h1.name
 {
   font-size: 80px;
 }
-p.title
+p.info
 {
   font-style: italic;
 }
