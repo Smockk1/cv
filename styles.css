@@ -4,7 +4,5 @@ body
 }
 hr
 {
-  background-color: white;
-  border-style: none;
-  height: 2px;
+  border: 2px solid white;
 }
