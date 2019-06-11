@@ -1,5 +1,6 @@
 body
 {
+  margin: 0;
   background-color: #f7fbfc;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -15,6 +16,7 @@ h1
 }
 h2, h3
 {
+  margin-top: 0;
   color: #38598b;
 }
 .title
@@ -23,7 +25,7 @@ h2, h3
 }
 h1.name
 {
-  font-size: 80px;
+  font-size: 60px;
 }
 p.info
 {
