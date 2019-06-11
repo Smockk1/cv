@@ -1,6 +1,6 @@
 body
 {
-  background-color: #dedede;
+  background-color: #f7fbfc;
   font-family: 'Ubuntu', sans-serif;
 }
 hr
@@ -8,4 +8,12 @@ hr
   border-style: none;
   border-top: 7px dotted white;
   width: 10%;
+}
+h1
+{
+  color: #769fcd;
+}
+h2
+{
+  color: #b9d7ea;
 }
