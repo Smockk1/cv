@@ -5,7 +5,7 @@ body
 }
 hr
 {
-  border: 2px dotted white;
-  border-radius: 2px;
+  border-top-style: 0px dotted white;
+  border: none;
   width: 10%;
 }
