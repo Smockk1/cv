@@ -4,5 +4,6 @@ body
 }
 hr
 {
-  border: 2px solid white;
+  border: 2px dotted white;
+  width: 30%;
 }
