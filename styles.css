@@ -6,14 +6,18 @@ body
 hr
 {
   border-style: none;
-  border-top: 7px dotted #d6e6f2;
+  border-top: 7px dotted #a2a8d3;
   width: 10%;
 }
 h1
 {
-  color: #769fcd;
+  color: #113f67;
 }
 h2
 {
-  color: #b9d7ea;
+  color: #38598b;
+}
+h3
+{
+  color: #a2a8d3;
 }
