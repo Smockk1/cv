@@ -44,4 +44,10 @@ p.info
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 5px 20px;
-}  
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button:hover
+{
+  background-color: #113f67;
+}
