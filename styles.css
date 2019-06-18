@@ -32,7 +32,7 @@ p.info
 {
   font-style: italic;
 }
-ul
+/*ul
 {
   list-style-type: none;
   margin-right: 30px;
@@ -40,11 +40,11 @@ ul
   padding: 0;
   overflow: hidden;
 }
-ul li.nav:first-child 
+ul li:first-child 
 {
   float: left;
 }
-ul li.nav
+ul li
 {
   float: right;
   display: block;
@@ -62,10 +62,10 @@ ul li.nav
   margin: 20px 5px;
   cursor: pointer;
   border-radius: 5px 20px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;  Safari 
   transition-duration: 0.4s;
 }
 .button:hover
 {
   background-color: #113f67;
-}
+}*/
