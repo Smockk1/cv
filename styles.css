@@ -2,7 +2,7 @@ body
 {
   margin: 0;
   background-color: #f7fbfc;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 hr
 {
@@ -63,6 +63,27 @@ p.details
 	padding-left: 30px;
 	padding-right: 30px;
 }
+.navbar-nav button
+{
+	width: 150px;
+}
+.avatar
+{
+	height: 225px;
+	width: 225px;
+}
+button:hover
+{
+	background-color: grey !important;
+}
+i.hov-ico
+{
+	display: none !important;
+}
+.navbar button:hover i.hov-ico
+{
+	display: inline-block !important;
+}
 /*ul
 {
   list-style-type: none;
@@ -100,4 +121,3 @@ ul li
 {
   background-color: #113f67;
 }*/
-
