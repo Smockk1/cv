@@ -69,8 +69,8 @@ p.details
 }
 .avatar
 {
-	height: 225px;
-	width: 225px;
+	height: 225px !important;
+	width: 225px !important;
 }
 button:hover
 {
