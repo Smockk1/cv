@@ -84,6 +84,16 @@ i.hov-ico
 {
 	display: inline-block !important;
 }
+.blinking{
+    animation:blinkingText 2.5s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    /*49%{    color: transparent; }*/
+    45%{    color: #ffba59; }
+    55%{    color: #ffba59;  }
+    100%{   color: red;    }
+}
 /*ul
 {
   list-style-type: none;
