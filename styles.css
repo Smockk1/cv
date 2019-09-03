@@ -102,21 +102,9 @@ p.details
 	height: 225px !important;
 	width: 225px !important;
 }
-button.menu:hover
-{
-	background-color: grey !important;
-}
 p
 {
 	color: #ffffff;
-}
-i.hov-ico
-{
-	display: none !important;
-}
-.navbar button:hover i.hov-ico
-{
-	display: inline-block !important;
 }
 .blinking{
     animation:blinkingText 2.5s infinite;
