@@ -63,12 +63,12 @@ h1
 }
 h6
 {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 h6.carousel
 {
-  font-style: italic;
-  color: #ffffff;
+	font-style: italic !important;
+	color: #ffffff !important;
 }
 h5
 {
