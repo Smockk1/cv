@@ -50,14 +50,25 @@ footer.footer
     top: 0;
     left: 0
 }
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev
+{
+    display:block;
+}
 h1
 {
   margin-bottom: 0;
   color: #ffffff;
 }
-h2, h3
+h6
 {
-  color: #38598b;
+	color: #ffffff;
+}
+h6.carousel
+{
+  font-style: italic;
+  color: #ffffff;
 }
 h5
 {
