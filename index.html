@@ -6,7 +6,7 @@
     <title>Kodee Smock</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
 	<script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.9.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
   </head>
@@ -24,16 +24,16 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mx-auto">
 								<li class="navbar-item">
-									<button type="button" class="btn btn-dark btn-lg d-none d-sm-inline btn-block mr-md-5 menu" href="#" role="button">About</button>
-									<a class="dropdown-item d-xs-inline d-sm-none bg-light mr-auto text-center" href="#">About</a>
+									<button data-target="about" type="button" class="btn btn-dark btn-lg d-none d-sm-inline btn-block mr-md-5 menu" href="#about" role="button">About</button>
+									<a class="dropdown-item d-xs-inline d-sm-none bg-light mr-auto text-center" href="#about">About</a>
 								</li>
 								<li class="navbar-item">
-									<button type="button" class="btn btn-dark btn-lg d-none d-sm-inline btn-block mx-md-5 mx-sm-4 menu" href="#" role="button">Blog</button>
-									<a class="dropdown-item d-xs-inline d-sm-none bg-light mr-auto text-center" href="blog">Blog</a>
+									<button data-target="podcast" type="button" class="btn btn-dark btn-lg d-none d-sm-inline btn-block mx-md-5 mx-sm-4 menu" href="#podcast" role="button">Podcast</button>
+									<a class="dropdown-item d-xs-inline d-sm-none bg-light mr-auto text-center" href="#podcast">Podcast</a>
 								</li>
 								<li class="navbar-item">
-									<button type="button" class="btn btn-dark btn-lg d-none d-sm-inline btn-block ml-md-5 menu" href="#" role="button">Contact</button>
-									<a class="dropdown-item d-xs-inline d-sm-none bg-light mr-auto text-center" href="#">Contact</a>
+									<button data-target="contact" type="button" class="btn btn-dark btn-lg d-none d-sm-inline btn-block ml-md-5 menu" href="#contact" role="button">Contact</button>
+									<a class="dropdown-item d-xs-inline d-sm-none bg-light mr-auto text-center" href="#contact">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -65,7 +65,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid about">
+		<div class="container-fluid about" id="about">
 			<div class="row min-vh-100 align-items-center py-5">
 				<div class="col-12 text-center">
 					<img src="KodeeSmockT.png" class="img-fluid rounded-circle border border-light border-3 avatar" alt="Responsive image">
@@ -77,26 +77,26 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid">
+		<div class="container-fluid" id="podcast">
 			<div class="row min-vh-100 align-items-center">
 				<div class="col-12 text-center">
-					<h1 class="name about">Personal Blog</h1>
-					<p class="info">
-						<strong>For more insight into my hobbies/interests or to check out 
-						my input on anything tech, gaming, or lifestyle 
-						related, check out my blog!</strong>
+					<a href="https://doubleclickpod.home.blog">
+					<img src="DC1.jpg" class="imgButton img-fluid rounded-circle border border-light border-3 avatar" alt="Responsive image"></a>
+					<br><br>
+					<p class="info2">
+						<strong>For a deep dive into my thoughts and opinions on tech, gaming, or anything in between, 
+								check out my podcast!</strong>
 					</p>
-					<a class="btn btn-dark btn-lg mx-5" href="#" role="button">Blog</a>
 					<hr class="divider">
 				</div>
 			</div>
 		</div>
 		<footer class="page-footer footer border-top border-dark">
-			<div class="container-fluid">
+			<div class="container-fluid" id="contact">
 				<div class="row">
 					<div class="col-4 text-center">
 						<br><br>
-						<p>Made from scratch by Kodee Smock</p>
+						<p>Made with ❤️ by Kodee Smock</p>
 						<p>Using:<a class="fab fa-html5 btn btn-lg px-2 py-2"></a><a class="fab fa-css3-alt btn btn-lg px-2 py-2"></a><a class="fab fa-bootstrap btn btn-lg px-2 py-2"></a><a class="fab fa-js-square btn btn-lg px-2 py-2"></a></p>
 									 
 					</div>
@@ -109,10 +109,10 @@
 					<div class="col-4 text-center">
 						<br><br><br>
 						<h5>Follow Me</h5>
-						<a class="fab fa-linkedin btn btn-lg btn-light px-2 py-2" href="https://www.linkedin.com/in/kodee-smock-7155b511b" role="button"></a>
-						<a class="fab fa-twitter-square btn btn-lg btn-light px-2 py-2" href="https://twitter.com/kodeesmock" role="button"></a>
-						<a class="fab fa-instagram btn btn-lg btn-light px-2 py-2" href="#" role="button"></a>
-						<a class="fab fa-facebook-square btn btn-lg btn-light px-2 py-2" href="#" role="button"></a>
+						<a class="fab fa-linkedin btn btn-lg btn-light px-2 py-2 test" href="https://www.linkedin.com/in/kodee-smock-7155b511b" role="button"></a>
+						<a class="fab fa-twitter-square btn btn-lg btn-light px-2 py-2 test" href="https://twitter.com/kodeesmock" role="button"></a>
+						<a class="fab fa-instagram btn btn-lg btn-light px-2 py-2 test" href="#" role="button"></a>
+						<a class="fab fa-facebook-square btn btn-lg btn-light px-2 py-2 test" href="#" role="button"></a>
 						<br><br><br>
 					</div>
 				</div>
@@ -122,7 +122,9 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="particles.js"></script>
 	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="scrollScript.js"></script>
   </body>
 </html>
